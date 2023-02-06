@@ -25,8 +25,17 @@
     
 }
 
-.hero-form{
-    background-color: lightslategray;
+#hero-form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#occupation{
+    background-color: lightgrey;
+    border-radius: 40%;
+    box-shadow: 2px 2px 2px red;
 }
 
 .card-img-top{
@@ -81,7 +90,8 @@
 
 .card-title{
     text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px darkgreen;
 }
 
 #question{
