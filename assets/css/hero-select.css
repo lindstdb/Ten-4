@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-form{
+    background-color: lightslategray;
+}
+
+.card-img-top{
+    background-image: transparent;
+}
+
+.container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    box-shadow: 10px black, 10px black;
+  
+}
+
+.label{
+    background-color: gray;
+}
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.card-title{
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+
+#question{
+    color: darkblue;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+   
+}
+
+.back-video{
+    filter: opacity(40%);
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: -1;
+  }
+  
+  @media (min-aspect-ratio: 16/9){
+    .back-video{
+      width:100%;
+      height: auto;
+    }
+  }
+  @media (max-aspect-ratio: 16/9){
+    .back-video{
+      width: auto;
+      height: 100%;
+    }
+  }
+
+
+
+
+
+ 
+
+  
